@@ -1,0 +1,95 @@
+.logo{
+  height: 80px;
+  width: 80px;
+  float: right;
+ }
+#contenedor {
+  max-width: 800px;
+  margin: 0 auto;
+}
+#encabezado {
+
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+#encabezado h1 {
+  font-size: 36px;
+  margin-bottom: 0;
+}
+
+#menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#menu li {
+  margin: 10px;
+}
+
+#menu a {
+  color: white;
+  text-decoration: none;
+}
+
+#contenido {
+  padding: 20px;
+}
+
+#contenido img {
+  width: 100%;
+  height: auto;
+}
+
+#pie {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+#carouselExampleIndicators{
+  position: relative;
+  width: 50%;
+}
+#a{
+
+  float: left;
+  margin-right: 10px;
+}
+#e{
+  padding: 10px;
+  padding-left: 30px;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: beige;
+  position: relative;
+
+}
+table{
+  background-color: silver;
+}
+body{
+  background-image: url(../img/img.png);
+}
+button{
+  background-color: skyblue;
+  height: 40px;
+  border-radius: 10px;
+  border-color: transparent;
+  margin: 30px;
+}
+.e{
+  background-color: beige;
+  width: 1450px;
+  height: 60px;
+  text-align: center;
+}
+.b{
+  background-color: beige;
+  width: 800px;
+  height: 210px;
+}

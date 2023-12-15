@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Categorias</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div id="encabezado">
+      <h1>CURSOS</h1>
+        <h2>Instituto de Idiomas</h2>
+        <ul id="menu">
+          <li><a href="index.html">Principal</a></li>
+          <li><a href="inicio.html">Inicio</li>
+          <li><a href="Profesores.html">Profesores</a></li>
+          <li><a href="contactos.html">Contactos</a></li>
+        </ul>
+      </div>
+      <center><button class="dropdown-item" onclick="showPage('CatBasico.html')">CATEGORIA BASICA</button>
+      <button class="dropdown-item" onclick="showPage('catint.html')">CATEGORIA INTERMEDIO</button>
+      <button class="dropdown-item" onclick="showPage('catav.html')">CATEGORIA AVANZADO</button></center>
+      <center><div class="mainFrame"><iframe id="frame" src="CatBasico.html" height="450px"></iframe></div></center>
+      <script>
+      	function showPage(url){
+  document.getElementById("frame").src=url;
+ }
+      </script>
+      <br>
+      <footer id="pie">
+<p>Instituto de Idiomas - Avenida 6 De Marzo - Teléfono: +591 68116313 - Email: info@institutoidiomas.com</p>      </footer>
+</body>
+</html>

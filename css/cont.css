@@ -1,0 +1,68 @@
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  height: 80px;
+  margin-right: 10px;
+}
+#contenedor {
+  max-width: 800px;
+  margin: 0 auto;
+}
+#encabezado {
+
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+#encabezado h1 {
+  font-size: 36px;
+  margin-bottom: 0;
+}
+
+#menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#menu li {
+  margin: 10px;
+}
+
+#menu a {
+  color: white;
+  text-decoration: none;
+}
+
+#contenido {
+  padding: 20px;
+}
+
+#contenido img {
+  width: 100%;
+  height: auto;
+}
+
+#pie {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+#carouselExampleIndicators{
+  position: relative;
+  width: 50%;
+}
+body{
+  background-image: url(../img/img.png);
+}
+.e{
+  background-color: beige;
+  width: 1350px;
+  height: 100px;
+}
